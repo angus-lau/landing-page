@@ -3,3 +3,35 @@
 * {
     font-family: 'Roboto';
 }
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10vw;
+}
+
+.header p {
+    color: white;
+}
+
+.header div {
+    display: flex;
+    gap: 2vw;
+}
+
+.sub-header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+}
+
+.sub-header1 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.sub-header1 button {
+    flex-grow: 0;
+    max-width: 5vw;
+}

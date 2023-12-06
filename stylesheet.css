@@ -4,15 +4,27 @@
     font-family: 'Roboto';
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
-    padding-bottom: 10vw;
+    padding-bottom: 4%;
+    background-color: green;
 }
 
 .header p {
     color: white;
+    font-size: 24px;
+}
+
+.hl {
+    font-size: 18px !important;
+
 }
 
 .header div {
@@ -24,14 +36,35 @@
     background-color: #1F2937;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    background-color: red;
+    padding-bottom: 8vw;
 }
 
 .sub-header1 {
     display: flex;
     flex-direction: column;
     color: white;
+    background-color: blue;
+    flex-basis: 40vw;
 }
 .sub-header1 button {
     flex-grow: 0;
     max-width: 5vw;
+}
+
+.sub-header1 h1 {
+    max-width: 80%;
+    font-size: 48px;
+}
+
+.sub-header1 p {
+    margin-top: -1vw;
+    max-width: 95%;
+}
+
+#image {
+    background-color: grey;
+    color: white;
+    flex-basis: 20vw;
 }

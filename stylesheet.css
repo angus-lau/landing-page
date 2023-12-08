@@ -14,17 +14,15 @@ body {
     display: flex;
     justify-content: space-around;
     padding-bottom: 4%;
-    background-color: green;
 }
 
 .header p {
-    color: white;
+    color: #F9FAF8;
     font-size: 24px;
 }
 
 .hl {
     font-size: 18px !important;
-
 }
 
 .header div {
@@ -37,7 +35,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: red;
     padding-bottom: 8vw;
 }
 
@@ -45,13 +42,10 @@ body {
     display: flex;
     flex-direction: column;
     color: white;
-    background-color: blue;
-    flex-basis: 40vw;
+    background-color: #1F2937;
+    flex-basis: 35vw;
 }
-.sub-header1 button {
-    flex-grow: 0;
-    max-width: 5vw;
-}
+
 
 .sub-header1 h1 {
     max-width: 80%;
@@ -59,12 +53,37 @@ body {
 }
 
 .sub-header1 p {
-    margin-top: -1vw;
-    max-width: 95%;
+    margin-top: -2vw;
+    max-width: 90%;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.sub-header1 button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 24%;
+    height: 2em;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 #image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: grey;
     color: white;
-    flex-basis: 20vw;
+    flex-basis: 35vw;
+    margin-top: 2em;
+
 }
+
+.sub-header1-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+

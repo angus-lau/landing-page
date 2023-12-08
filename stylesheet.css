@@ -87,3 +87,41 @@ body {
     justify-content: center;
 }
 
+.rf-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rf-container h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    margin-top: 10vh;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    width: 55vw;
+    margin-top: 2vh;
+}
+
+.info {
+    max-width: 10em;
+    text-align: center;
+}
+
+.info p {
+    max-width: 95%;
+    margin-left: 1vw;
+}
+
+.info-box {
+    width: 10em;
+    height: 10em;
+    border-width: 5em;
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 15px;
+}

@@ -169,6 +169,7 @@ body {
     background-color: #3882F6;
     width: 70vw;
     height: 10vw;
+    border-radius: 15px;
 }
 
 .cta-info-1 {
@@ -180,7 +181,6 @@ body {
 .cta-info-1 :nth-child(1) {
     color: white;
     font-weight: 700;
-    font-style: bolder;
     font-size: 20px;
     margin-bottom: -1.5vh;
 }
@@ -198,5 +198,18 @@ body {
     color: white;
     border-style: solid;
     border-color: white;
+    font-weight: 700;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    background-color: #1F2937;
+    color: white;
+
+}
+
 
